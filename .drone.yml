@@ -1,0 +1,13 @@
+kind: pipeline
+type: docker
+name: release
+
+steps:
+  - name: build_image
+    image: plugins/docker
+    settings:
+      repo: samcre/drone-slack-file
+      username: samcre
+      password:
+        from_secret: DOCKERHUB_TOKEN
+      auto_tag: true
