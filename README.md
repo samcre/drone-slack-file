@@ -1,4 +1,4 @@
-[![Build Status](https://drone.ironhack.tech/api/badges/ironhack/drone-slack-file/status.svg?ref=refs/heads/master)](https://drone.ironhack.tech/ironhack/drone-slack-file)
+[![Build Status](https://cloud.drone.io/api/badges/samcre/drone-slack-file/status.svg?ref=refs/heads/master)](https://cloud.drone.io/samcre/drone-slack-file)
 
 # drone-slack-file
 
