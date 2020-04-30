@@ -11,6 +11,6 @@ RUN useradd "${USER}"
 
 USER "${USER}"
 
-COPY --chown="%{USER}" . .
+COPY --chown="${USER}" . .
 
 CMD ["python", "/usr/src/app/drone-slack-file/main.py"]
